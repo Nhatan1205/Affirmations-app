@@ -118,7 +118,7 @@ fun AffirmationCard(affirmation: Affirmation, modifier: Modifier = Modifier) {
             ) {
                 Text(
                     text = LocalContext.current.getString(affirmation.stringResourceId),
-                    modifier = Modifier.weight(0.7f),
+                    modifier = Modifier.weight(0.8f),
                     style = MaterialTheme.typography.headlineSmall
                 )
                 Button(
